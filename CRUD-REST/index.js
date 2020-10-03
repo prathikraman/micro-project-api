@@ -9,10 +9,10 @@ const server=require("./server");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-let db
-MongoClient.connect(url, (err,client)=>{
-    if(err) return console.log(err);
-    db=client.db(dbName);
+//let db
+//MongoClient.connect(url, (err,client)=>{
+  //  if(err) return console.log(err);
+    //db=client.db(dbName);
 //db.collection('HospDet', function (err, collection) {
         
    // collection.insertOne({"hId":"H1",
